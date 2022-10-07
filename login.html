@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"
+    ></script>
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- or -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/side-bar.css" />
+    <title>Document</title>
+  </head>
+
+  <body id="body-pd">
+
+
+    <header class="header justify-content-between bg-white" id="header">
+      <div class="header_toggle">
+        <i class="text-secondary bx bx-menu" id="header-toggle"></i>
+      </div>
+      <i class="purchace d-none "></i>
+      <div class="">
+        <ul class="navbar-nav flex-row gap-1 fs-5 fw-bold text-white ps-5">
+          <li class="bg-orange px-2 rounded">K</li>
+          <li class="bg-orange px-2 rounded d-none d-sm-block">A</li>
+          <li class="bg-orange px-2 rounded d-none d-sm-block">Y</li>
+          <li class="bg-orange px-2 rounded d-none d-sm-block">A</li>
+          <li class="bg-orange px-2 rounded d-none d-sm-block">K</li>
+        </ul>
+      </div>
+
+    </header>
+
+
+    <!-- Container Main start -->
+  <div class="vh-100 bg-white">
+    <div style="height: 64px"></div>
+    <h1>login</h1>
+
+    
+    
+    <div class="dark d-flex">
+      <div class="user">
+
+        <div class="d-flex justify-content-center py-3">
+          <ul class="navbar-nav flex-row gap-1 fs-5 fw-bold text-white">
+            <li class="bg-orange px-2 rounded">K</li>
+            <li class="bg-orange px-2 rounded d-none d-sm-block">A</li>
+            <li class="bg-orange px-2 rounded d-none d-sm-block">Y</li>
+            <li class="bg-orange px-2 rounded d-none d-sm-block">A</li>
+            <li class="bg-orange px-2 rounded d-none d-sm-block">K</li>
+          </ul>
+        </div>
+
+
+        <div class="admin_form">
+          <form action="#">
+
+            <div class="mb-3">
+              <label for="email" class="form-label text-orange">Email</label>
+              <input type="email" class="form-control" id="email" required >
+            </div>
+            
+            <div class="mb-3">
+              <label for="password" class="form-label text-orange">Password</label>
+              <input type="password" class="form-control" id="password" required >
+            </div>
+
+            <div class="error text-danger"></div>
+
+            <div class="mb-3">
+              <input type="submit" class="btn btn-primary" id="submit_button" >
+            </div>
+          
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="./js/side-bar.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

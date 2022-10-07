@@ -1,0 +1,114 @@
+
+.text-orange{
+    color:#e8381b;
+}
+.bg-orange{
+    background:#e8381b;
+}
+
+.boarding{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+    transition: .3s;
+    z-index:50; 
+    background:white;
+    
+}
+.boarding  input[type=number] {
+    width: 25px;
+    border: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.daterangepicker{
+  top:250px !important;
+}
+
+@media (min-width: 768px){
+  .daterangepicker{
+      top:160px !important;
+  }
+}
+
+
+.search_res{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    background: white;
+    top: 100% ;
+    padding: 10px;
+    left: 0;
+    border: 1px solid black;
+    background:#eee;
+    display: none;
+    z-index: 100;
+
+}
+
+
+.no{
+    list-style: none;
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+    color: red;
+}
+
+
+.d_block{
+    color:blue;
+    display: block;
+    padding:5px;
+    text-decoration: none;
+}
+
+.d_block:hover{
+    background: rgb(199, 198, 198);
+}
+
+
+
+.dark{
+    position:fixed;
+    width: 50%;
+    height: 50%;
+    min-width: 270px;
+    background-color: #3c3c3c;
+    background-image: linear-gradient(45deg,rgba(0,0,0,.06) 25%,transparent 0),linear-gradient(-45deg,rgba(0,0,0,.06) 25%,transparent 0),linear-gradient(45deg,transparent 75%,rgba(0,0,0,.06) 0),linear-gradient(-45deg,transparent 75%,rgba(0,0,0,.06) 0);
+    background-size: 24px 24px;
+    /* opacity: .2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:25%;
+    top:20%;
+    z-index: 200000;
+    border-radius: 15px;
+    border: 1 solid orange;
+    transition: .3s; 
+    display:none
+}
+
+.user{
+    border-radius: 15px;
+    width: max-content;
+    align-text: center;
+
+}
