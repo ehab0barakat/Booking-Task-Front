@@ -19,15 +19,15 @@ $("form").on("submit", function (e) {
                 "room_category" : room_category ,
     }
 
-var data = {
-  location: 1,
-  start_date: "2022-10-04",
-  end_date: "2022-10-08",
-  rooms: 1,
-  adults: 1,
-  children: 1,
-  room_category: 1,
-};
+// var data = {                            =================>>>>>>>>    this was for testing :)) 
+//   location: 1,
+//   start_date: "2022-10-04",
+//   end_date: "2022-10-08",
+//   rooms: 1,
+//   adults: 1,
+//   children: 1,
+//   room_category: 1,
+// };
 
 fetch("http://127.0.0.1:8000/api/show", {
   method: "POST",
