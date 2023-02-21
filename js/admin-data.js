@@ -1,4 +1,4 @@
-fetch("http://127.0.0.1:8000/api/admin-data", {
+fetch("https://6675-156-206-209-136.eu.ngrok.io/api/admin-data", {
   method: "get",
   mode: "cors",
   headers: {

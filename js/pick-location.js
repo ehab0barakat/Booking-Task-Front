@@ -12,7 +12,7 @@ function clear(){
   
   function asd(){
     var xhr_1 = new XMLHttpRequest ;
-    xhr_1.open('GET',`http://127.0.0.1:8000/api/hotel` ,true)
+    xhr_1.open('GET',`https://6675-156-206-209-136.eu.ngrok.io/api/hotel` ,true)
     xhr_1.onreadystatechange = ()=>{
     if(xhr_1.readyState == 4 && xhr_1.status == 200){
         var data = JSON.parse(xhr_1.responseText)

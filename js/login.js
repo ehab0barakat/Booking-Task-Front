@@ -8,7 +8,7 @@ $("form").on("submit", (x)=>{
         "password":password
     }
 
-  fetch("http://127.0.0.1:8000/api/login", {
+  fetch("https://6675-156-206-209-136.eu.ngrok.io/api/login", {
   method: "post",
   body: JSON.stringify(data),
   mode: "cors",

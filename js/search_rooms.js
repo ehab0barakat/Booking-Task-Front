@@ -29,7 +29,7 @@ $("form").on("submit", function (e) {
 //   room_category: 1,
 // };
 
-fetch("http://127.0.0.1:8000/api/show", {
+fetch("https://6675-156-206-209-136.eu.ngrok.io/api/show", {
   method: "POST",
   mode: "cors",
   body: JSON.stringify(data),
@@ -95,7 +95,7 @@ function user() {
       phone: phone,
     };
 
-    fetch("http://127.0.0.1:8000/api/guest", {
+    fetch("https://6675-156-206-209-136.eu.ngrok.io/api/guest", {
       method: "POST",
       mode: "cors",
       body: JSON.stringify(data),
@@ -165,7 +165,7 @@ function book() {
 
     console.log(data);
 
-    fetch("http://127.0.0.1:8000/api/book", {
+    fetch("https://6675-156-206-209-136.eu.ngrok.io/api/book", {
       method: "POST",
       mode: "cors",
       body: JSON.stringify(data),
